@@ -24,3 +24,6 @@ CREATE TABLE `customer` (
 ```
 
 * Please edit src/main/resources/application.properties
+
+##referring to the following page
+* https://spring.io/guides/gs/accessing-data-jpa/

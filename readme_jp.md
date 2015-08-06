@@ -24,3 +24,6 @@ CREATE TABLE `customer` (
 ```
 
 * src/main/resources/application.propertiesの中身を編集する
+
+##以下のページを参考にしています
+* https://spring.io/guides/gs/accessing-data-jpa/
