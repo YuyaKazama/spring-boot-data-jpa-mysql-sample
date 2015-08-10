@@ -27,3 +27,6 @@ CREATE TABLE `customer` (
 
 ##referring to the following page
 * https://spring.io/guides/gs/accessing-data-jpa/
+
+##Caution
+* Class that include "@Autowired" must reside repository class in the same package.

@@ -27,3 +27,6 @@ CREATE TABLE `customer` (
 
 ##以下のページを参考にしています
 * https://spring.io/guides/gs/accessing-data-jpa/
+
+##注意点
+* @AutowiredがあるクラスはRepositoryと同じパッケージ内に存在している必要があるようです。
