@@ -1,4 +1,4 @@
-package jp.co.worksap.ec.sample;
+package jp.co.spring_boot.mysql.sample;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,7 +21,11 @@ public class Customer {
         this.lastName = lastName;
     }
 
-    @Override
+    public String getFirstName() {
+		return firstName;
+	}
+
+	@Override
     public String toString() {
         return String.format(
                 "Customer[id=%d, firstName='%s', lastName='%s']",

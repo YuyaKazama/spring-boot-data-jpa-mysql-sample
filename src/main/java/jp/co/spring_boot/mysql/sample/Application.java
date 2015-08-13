@@ -1,4 +1,6 @@
-package jp.co.worksap.ec.sample;
+package jp.co.spring_boot.mysql.sample;
+
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -46,5 +48,10 @@ public class Application implements CommandLineRunner {
             System.out.println(bauer);
         }
     }
+    
+	public List<Customer> queryCustomerWhereLastName(String lastName){
+		return repository.findByLastName(lastName);
+	}
+
 
 }

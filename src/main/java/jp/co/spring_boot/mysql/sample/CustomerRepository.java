@@ -1,4 +1,4 @@
-package jp.co.worksap.ec.sample;
+package jp.co.spring_boot.mysql.sample;
 
 import java.util.List;
 
